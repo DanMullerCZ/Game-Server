@@ -1,0 +1,39 @@
+table {
+	border-collapse: collapse;
+	margin: auto;
+}
+
+td {
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	font-size: 30px;
+	border: 1px solid black;
+}
+
+td:hover {
+	background-color: lightgray;
+	cursor: pointer;
+}
+
+h1, p {
+	text-align: center;
+	margin-top: 50px;
+}
+
+#restart-button {
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+	font-size: 20px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	background-color: lightblue;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+#restart-button:hover {
+	background-color: blue;
+}

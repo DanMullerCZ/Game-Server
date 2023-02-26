@@ -1,0 +1,24 @@
+body {
+    background-color: grey;
+}
+
+#container {
+    width: 640px;
+    height: 420px;
+    background-color: red;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.player {
+    background-color: black;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    width: 15px;
+    margin-left: 30px;
+}
